@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/personal_website/projects/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Yiyun (Nicole) Chen — CV",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/personal_website/cv/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
